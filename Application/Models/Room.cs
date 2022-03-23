@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace Ahaji.Models
 {
+    // CRUD
     public partial class Room
     {
         public Room()
@@ -19,4 +20,6 @@ namespace Ahaji.Models
         public int RoomCapacity { get; set; }
         public virtual ICollection<Reservation> Reservations { get; set; }
     }
+
+    
 }

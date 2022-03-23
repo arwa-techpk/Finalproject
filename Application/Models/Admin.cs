@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Ahaji.Models
 {
-    // user role
+    // users
     public partial class Admin
     {
         public int AdminId { get; set; }
